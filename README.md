@@ -1,12 +1,12 @@
-Experiment 3: Supply Chain Transparency for Luxury Goods
-Aim:
+# Experiment 3: Supply Chain Transparency for Luxury Goods
+## Aim:
 To develop a smart contract that tracks the supply chain of luxury goods, ensuring authenticity.
-Algorithm:
+## Algorithm:
 1. The manufacturer records product creation details on-chain.
 2. The product moves through different supply chain checkpoints.
 3. The ownership of the product can be transferred securely.
 4. Buyers can verify the product’s authenticity.
-Code:
+## Code:
 ```python
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
@@ -48,10 +48,10 @@ contract LuxurySupplyChain {
     }
 }
 ```
-Expected Output:
+## Expected Output:
 ● A luxury good (e.g., a Rolex watch) is registered on-chain.
 ● Ownership is transferred at every checkpoint.
 ● Buyers can check the authenticity before purchasing.
-High-Level Overview:
+## High-Level Overview:
 ● Helps prevent counterfeit luxury goods.
 ● Teaches real-world supply chain use cases.
